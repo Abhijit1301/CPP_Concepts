@@ -1,7 +1,5 @@
 #include "comments_demo.h"
 
-using namespace std;
-
 int Util::sum(int a, int b) {
   return a + b;
 }

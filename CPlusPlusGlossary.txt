@@ -1,0 +1,16 @@
+1. In-Class Initializers
+2. In-Class Function Definitions (inline functions)
+3. Self reference (for function chaining)
+4. Constructor Precedence (default and Initializer list take precedence)
+5. Delegating constructor (forwarding constructor)
+6. Shallow copy
+7. Deep copy
+8. Copy-on-write
+9. short string optimization
+10. anonymous unions
+11. value semantics
+12. ancillary functions
+13. type parameters
+14. non-type parameters
+15. template parameters
+16. specialization

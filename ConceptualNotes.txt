@@ -1,0 +1,33 @@
+1. Which suffixes/prefixes can go with function definition and which cannot?
+	
+Ans:	these go: inline, const
+		these do not: final, override, explicit, static
+2. Since inline functions work in a way that the body gets replaced during compilation, does that mean inline functions 
+cannot access private members of the class?
+	
+Ans:	They can access.
+
+3. Can a const object invoke a non-const member function?
+
+Ans: No. compile time error.
+
+4. Can a non-const object invoke a const member function?
+
+Ans: Yes
+
+5. How to modify a member variable inside a const member function?
+
+Ans: 1. the "mutable" keyword
+	 2. use a pointer to the member variable.
+
+6. Can a const member function modify a member object if it's a pointer or reference?
+
+Ans: yes
+
+7. Is the "this" pointer an rvalue or an lvalue?
+
+Ans: rvalue
+
+8. How to use a class type inside a class, i.e. as a member type? (not as a pointer or reference type)
+
+Ans: make it static.
